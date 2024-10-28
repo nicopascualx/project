@@ -1,0 +1,139 @@
+/*import de google fonts*/
+* {
+    font-family: "Fira Sans Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(255, 250, 242);
+}
+h1{
+    color: #a4888f;
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    color: #a4888f;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*Header*/
+.header{
+    background-color: rgb(145, 142, 135);
+    font-size: 10px;
+    .logo{
+        width: 100px;
+    }
+    nav{
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                margin-right: 15px;
+            }
+            a{
+                text-decoration: none;
+                color:  #510d1b;
+                font-size: 2em;
+              
+            }
+        }
+    }
+}
+
+/* Seccion principal del main */
+.contenidoPrincipal{
+    background-image: url("../assets/img/teaMain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 100vh;
+    text-align: center;
+    .textoPrincipal{
+        text-align: center;
+        margin-inline: auto;
+        padding: 10px;
+        width: 50%;
+        font-size: 10px;
+        color: rgb(239, 213, 213);
+        filter: brightness(0.8);
+        backdrop-filter: blur(2px);
+        border-radius: 5%;
+        p{
+            font-size: 2.5em;
+        }
+        a{
+            display: inline-block;/*para usar las propiedades en bloque,como padding margin y border*/
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 2.5em;
+            margin-top: 20px;
+            border: 1px solid rgb(255, 241, 241);
+            border-radius: 2.5%;
+            padding: 8px;
+        }
+    }
+   
+}
+
+/* Footer */
+.footer{
+    font-size: 10px;
+    .logo{
+        width: 100px;
+    }
+    nav{    
+        ul{
+            list-style: none;
+        }
+        .navMenu{
+            li{
+                display: block;
+            }
+            a{
+                text-decoration: none;
+                color:  #510d1b;
+                font-size: 1.5em;
+            }
+        }   
+        .navInfo{
+            li{
+                display: block;
+            }
+            a{
+                text-decoration: none;
+                color:  #510d1b;
+                font-size: 1.5em;
+            }
+        }         
+        .redes{
+            li{
+                list-style: none;
+                display: inline-block;
+            }
+            a{
+                text-decoration: none;
+                color:  #a5d6ba;
+                font-size: 1.5em;
+            }
+            .fa-instagram, .fa-facebook, .fa-twitter{
+                font-size: 3em;
+            }
+        }
+    }
+    .fa-whatsapp{
+        font-size: 3.5em;
+        color:rgb(44, 181, 44);
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+    p{
+        font-size: 1.5em;
+      
+    }
+
+}
